@@ -50,7 +50,7 @@ public class Team {
 
     //Method to print the summary of the team and its skaters
     public void printSummary() {
-        System.out.println("County: " + country + ", World Ranking: " + worldRanking);
+        System.out.println("Country: " + country + ", World Ranking: " + worldRanking);
         System.out.println("Skaters:");
         for (Skater skater : skaters) {
             skater.printSummary();
