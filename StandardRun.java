@@ -23,6 +23,4 @@ public abstract class StandardRun {
 
         return runScore;
     }
-
-    public abstract void run(Skater skater);
 }
