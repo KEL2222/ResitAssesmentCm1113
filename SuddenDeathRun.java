@@ -25,7 +25,7 @@ public class SuddenDeathRun extends StandardRun {
                 if (!skater.isDisqualified()) {
                     skater.setSuddenDeathRank(clearedHeight);
                 } else {
-                    skater.setSuddenDeathRank(0);  // Or any value to denote disqualification
+                    skater.setSuddenDeathRank(0); 
                 }
             }
         }
