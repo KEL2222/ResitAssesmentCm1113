@@ -24,6 +24,5 @@ public abstract class StandardRun {
         return runScore;
     }
 
-    // Abstract method to be implemented by subclass
     public abstract void run(Skater skater);
 }
